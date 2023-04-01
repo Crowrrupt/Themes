@@ -916,7 +916,7 @@ li.note img.avatar {
     {/block:PreviousPage}
     {block:JumpPagination length="5"}
     {block:CurrentPage}
-    <span class="current_page"><u>{PageNumber}</u></span> 
+    <span class="current_page" style="{block:ifasuka}color: #831f83;{/block:ifasuka}"><u>{PageNumber}</u></span> 
     {/block:CurrentPage}
     {block:JumpPage}
     <a class="jump_page" href="{URL}">{PageNumber}</a> 
